@@ -1,0 +1,84 @@
+#content{
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: 100vh;
+    border: 2px solid green;
+}
+h2{
+    display: flex;
+    place-content: center;
+    color: #fff;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#sidebar{
+    width: auto;
+    /* border: 2px solid brown; */
+    background-color: brown;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+#sidebar div{
+    margin-top: 30px;
+    margin-left: 45px;
+}
+#main{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 60% 40%;
+
+}
+
+#image{
+    background-image: url('/images/restaurantImage.jpg');
+}
+#lower-body{
+    background-color: greenyellow;
+    font-family: 'Roboto', sans-serif;
+
+}
+h4{
+    display: flex;
+    place-content: center;
+}
+
+#top{
+    border: 2px solid brown;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: auto;
+    place-content: center;   
+
+}
+.nav{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: auto;
+    background-color: brown;
+    color: #fff;
+    padding: 0 8px 0 8px;
+}
+#menu{
+    
+    margin: 0 auto;
+    place-content: center; 
+    
+    
+    
+}
+#contact{
+    margin-left: 600px;
+    margin-top: 35px;
+    
+}
+#contact button{
+    display: block;
+    margin-top: 25px;
+}
+#contact input{
+    margin-top: 8px;
+}
